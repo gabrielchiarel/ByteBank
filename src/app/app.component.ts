@@ -13,10 +13,10 @@ export class AppComponent {
 
   }
 
-  transferir($event){
-    this.service.addTransferencia($event);
+  //transferir($event){
+    //this.service.addTransferencia($event);
     // {...$event} isso aqui faz com que ele pegue as propriedades existentes no objeto e faça no objeto que estou criando agora
     //const transfer = {...$event, data: new Date()}
     //this.transferencias.push(transfer);
-  }
+  //}
 }
